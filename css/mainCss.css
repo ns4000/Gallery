@@ -1,0 +1,36 @@
+.full-width-div {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+#logo-icon {
+  height: 100px;
+  width: 150px;
+  float: left;
+}
+
+#nav-style {
+  font-family: 'Indie Flower', cursive;
+  font-size: 34px;
+}
+
+#nav-style li {
+  padding-top: 35px;
+}
+.navbar-toggle{
+  margin-top: 35px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #cd4545;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+  }
