@@ -17,6 +17,10 @@ body {
 #nav-style {
   font-family: 'Indie Flower', cursive;
   font-size: 34px;
+  margin-top: -101px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 #nav-style li {
@@ -28,9 +32,13 @@ body {
 .navbar-inverse .navbar-nav>li>a {
     color: #cd4545;
 }
-.container {
+.container-nav {
     padding-right: 15px;
     padding-left: 10%;
     margin-right: auto;
     margin-left: auto;
   }
+.navbar {
+  position: inherit;
+  margin-bottom: 0px;
+}
