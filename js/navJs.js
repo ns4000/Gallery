@@ -6,9 +6,9 @@ function nav_animate(e) {
     //var cur_marg = $("#nav-style").css('margin-top');
     var old_y = $("#nav-style").css('margin-top').replace('px', '');
     var new_y = parseInt(old_y);
-    console.log('new_y=' + new_y);
+    console.log('new_y = ' + new_y);
     var tmp = -(mouse_y + new_y);
-    console.log('tmp=' + tmp);
+    console.log('tmp = ' + tmp);
 
     if (tmp > 0) {
       tmp = 0;
